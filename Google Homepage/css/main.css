@@ -37,3 +37,49 @@ header {
   float: right;
   margin-bottom: -88%;
 }
+
+/* UL LI A SECTION */
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 9px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: mediumpurple;
+}
+
+/* BODY */
+
+.logo {
+  max-height: 200px;
+  display: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 11%;
+}
+
+#search {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35px;
+  width: 600px;
+  border: 1px solid lightgray;
+}
+
+#search:hover {
+  border: 1px solid lightgray;
+}
+
+#search:focus {
+  border: 1px solid lightblue;
+  outline-color: lightblue;
+}
