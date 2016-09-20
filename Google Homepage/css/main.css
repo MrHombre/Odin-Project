@@ -1,0 +1,39 @@
+/* Gerneral */
+html {
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+
+/* Nav */
+#menu {
+  background: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png')
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+  padding: 0;
+  margin-right: 8px;
+}
+
+#notification {
+  width: 23px;
+  height: 25px;
+  position: relative;
+  top: 6px;
+  padding: 0;
+  margin-right: 8px;
+}
+
+.nav button {
+  padding: 0.5em 1em 0.5em 1em;
+  border: 1px solid #4387fd;
+  border-radius: 2px;
+  background-color: #4387fd;
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  float: right;
+  margin-bottom: -88%;
+}
